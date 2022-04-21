@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+          "@/*": ["*"]
+        }
+    },
+    "include": [
+      "pages/**/*.js",
+      "redux/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+}
